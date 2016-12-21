@@ -117,6 +117,7 @@ a:hover
     color: #fff; }
 
 
+
 /*********************************************************************************/
 /* Social Icon Styles                                                            */
 /*********************************************************************************/
@@ -222,13 +223,14 @@ ul.contact li a.icon-rss:before
 	#header-wrapper
 {
 	background: url(images/tip-06.JPG);
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 s
 #header
 {
 	position: relative;
-	padding: 9em 0em;
+	padding: 10em 0em;
 }
 
 /*********************************************************************************/
